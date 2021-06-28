@@ -1,0 +1,76 @@
+body
+  {
+  background-color:#232323;
+  margin:0;
+  }
+
+h1
+  {
+   color:white;
+   text-align:center;
+   background:steelblue;
+   margin:0;
+   text-transform:uppercase;
+   }
+
+#stripe
+  {
+   background:white;
+   height:30px;
+   text-align:center;
+   color:black;
+   }
+
+button
+   {
+   border:none;
+   background:none;
+   text-transform:uppercase;
+   height:100%;
+   letter-spacing:1px;
+   font-size:inherit
+   color:steelblue;
+   }
+
+.selected
+  {
+  color:white;
+  background:steelblue;
+  }
+ 
+button:hover
+  {
+  color:white;
+  background:steelblue;
+  }
+
+.container
+  {
+  max-width:1000px;
+  margin:20px auto;
+ }
+
+.square
+  {
+  width:22%;
+  background:purple;
+  padding-bottom:20%;
+  float:left;
+  margin:1%;
+  border-radius:15%;
+  transition:backgroud 0.5s;
+ }
+ .square:hover
+{
+
+}
+ #message
+  {
+   width:20%;
+   display:inline-block;
+
+  }
+#colorDisplay
+{
+font-size:150%;
+}
